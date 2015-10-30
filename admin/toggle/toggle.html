@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#raj").hide();
+  $("#user").click(function(){
+    $("#raj").toggle();
+  });
+});
+</script>
+</head>
+<body>
+
+<div id='user'>singin</div>
+<div id='raj'> <form method="post"> 
+<input type="text" name="username" value="Username or Email"> <br/>
+<input type="password" name="password" value="Password">
+</form></div>  
+</body>
+</html>

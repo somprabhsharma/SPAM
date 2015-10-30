@@ -1,0 +1,85 @@
+/* fonts [imported] */
+@import url(http://fonts.googleapis.com/css?family=Italiana);
+/* twitter ticker */
+@import url('../twitter/jquery.tweet.css');
+
+
+/* fonts */
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('fonts/bebasneue-regular/bebasneue-webfont.eot');
+    src: url('fonts/bebasneue-regular/bebasneue-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('fonts/bebasneue-regular/bebasneue-webfont.woff') format('woff'),
+         url('fonts/bebasneue-regular/bebasneue-webfont.ttf') format('truetype'),
+         url('fonts/bebasneue-regular/bebasneue-webfont.svg#BebasNeueRegular') format('svg');
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* countdown */
+#countdown-wrapper {
+position: absolute;
+left: 45px;
+bottom: 30px;
+text-align: left;
+}
+
+#countdown {
+margin: 0 auto;
+padding: 0;
+}
+
+ul#countdown li {
+display: inline-block;
+width: 85px;
+}
+
+ul#countdown li span {
+font-family: 'BebasNeueRegular';
+font-size: 45px;
+line-height: 45px;
+font-style: normal;
+font-weight: normal;
+text-transform: uppercase;
+color: #fff;
+text-shadow: 1px 1px 2px #555;
+height: 40px;
+margin: 0;
+padding: 0;
+position: relative;
+}
+
+ul#countdown li span.seconds {
+font-family: 'BebasNeueRegular';
+font-size: 45px;
+line-height: 45px;
+font-style: normal;
+font-weight: normal;
+text-transform: uppercase;
+color: #990000;
+text-shadow: 1px 1px 2px #990000;
+height: 40px;
+margin: 0;
+padding: 0;
+position: relative;
+}
+
+ul#countdown li span::before {
+content: '';
+width: 100%;
+height: 1px;
+position: absolute;
+}
+
+ul#countdown li p.timeRefDays,
+ul#countdown li p.timeRefHours,
+ul#countdown li p.timeRefMinutes,
+ul#countdown li p.timeRefSeconds {
+font-family: 'BebasNeueRegular';
+color: #fff;
+text-shadow: 1px 1px 2px #555;
+text-transform: uppercase;
+font-size: 25px;
+margin: 0;
+padding: 0 0 5px 0;
+}

@@ -1,0 +1,154 @@
+/*
+Template Name: Educational
+File: Forms CSS
+Author: OS Templates
+Author URI: http://www.os-templates.com/
+Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
+*/
+
+form, fieldset, legend{margin:0; padding:0; border:none;}
+legend{display:none;}
+input, textarea, select{font-size:12px; font-family:Verdana, Arial, Helvetica, sans-serif;}
+
+/* ----------------------------------------------Forms in Content Area-------------------------------------*/
+
+#container #respond{display: block; width:100%;}
+
+#container #respond input{width:170px; padding:2px; border:1px solid #CCCCCC; margin:5px 5px 0 0;}
+
+#container #respond textarea{width:98%; border:1px solid #CCCCCC; padding:2px; overflow:auto;}
+	
+#container #respond p{margin:5px 0;}
+
+#container #respond #submit, #container #respond #reset{
+	margin:0;
+	padding:5px;
+	color:#666666;
+	background-color:#F7F7F7;
+	border:1px solid #CCCCCC;
+	cursor:pointer;
+	}
+
+/* ----------------------------------------------Newsletter-------------------------------------*/
+
+#footer form{
+	display:block;
+	width:300px;
+	margin:0;
+	padding:10px 0;
+	border:none;
+	}
+
+#footer input{
+	display:block;
+	float:left;
+	width:245px;
+	margin:0 5px 0 0;
+	padding:5px;
+	color:#666666;
+	background-color:#FFFFFF;
+	border:1px solid #DBDBDB;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	}
+
+#footer input#news_go{
+	width:auto;
+	height:auto;
+	margin:0;
+	padding:4px;
+	}
+	
+	
+	
+	#c
+	{
+		width:auto;
+		height:700px;
+background-color:#F8F7DF;
+padding-left:230px;
+padding-right:250px;
+padding-top:100px;
+	}
+	
+
+#box
+{
+	width:900px;
+	height:600px;	
+	float:left;
+	margin-bottom:50px;
+	
+	margin-right:10px;
+	margin-top:50px;
+
+	
+}
+.box1
+{
+	width:900px;
+	height:200px;	
+	float:left;
+	border:1.6px solid ;
+	
+}
+
+.l_box1
+{
+	width:448px;
+	height:200px;	
+	float:left;
+
+}
+	
+.inner_l_box1
+{
+	width:200px;
+	height:200px;	
+	float:left;
+
+}
+
+
+
+.r_box1
+{
+	width:230px;
+	height:165px;	
+	float:left;
+
+}
+	
+.inner_r_box1
+{
+	width:220px;
+	height:145px;	
+	float:left;
+	margin-bottom:10px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:10px;
+	
+}
+	
+	.text
+{
+	width:220px;
+	height:1px;	
+	float:left;
+	padding-top:10px;
+	
+
+}
+.field
+{
+	width:220px;
+	height:10px;	
+	float:left;
+	padding-top:10px;
+
+}
+	
+
+	
+	

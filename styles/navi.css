@@ -1,0 +1,119 @@
+<?
+header('Content-Type: text/css');
+// print out your php-driven css...
+?>
+<html>
+    <head>
+        <style>
+           #cssmenu{
+	border:none;
+	border:0px;
+	margin:0px;
+	padding:15px 0;
+	font-family:verdana,geneva,arial,helvetica,sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:8e8e8e;
+	}
+#cssmenu ul{
+	/*background:url(images/menu-bg.gif) top left repeat-x;*/
+	height:43px;
+	list-style:none;
+	margin:0;
+	padding:0;
+	}
+	#cssmenu li{
+		float:left;
+		padding:0px 8px 0px 8px;
+		}
+	#cssmenu li a{
+		color:#FFF;
+		display:block;
+		font-weight:bold;
+		line-height:43px;
+		padding:0px 25px;
+		text-align:center;
+		text-decoration:none;
+		}
+		#cssmenu li a:hover{
+			color:#FFF;
+			filter:alpha(opacity=60);
+		opacity:0.60;
+			text-decoration:none;
+			}
+	#cssmenu li ul{
+		background:#CCC;
+		border-left:2px solid #603;
+		border-right:2px solid #603;
+		border-bottom:2px solid #603;
+		display:none;
+		height:auto;
+	
+		position:absolute;
+		width:225px;
+		z-index:200;
+		/*top:1em;
+		/*left:0;*/
+		}
+	#cssmenu li:hover ul{
+		display:block;
+		}
+	#cssmenu li li {
+		display:block;
+		float:none;
+		padding:0px;
+		width:225px;
+		}
+	#cssmenu li ul a{
+		display:block;
+		color:#600;
+		font-size:12px;
+		font-style:normal;
+		padding:0px 10px 0px 15px;
+		text-align:left;
+		}
+		#cssmenu li ul a:hover{
+			background:#949494;
+
+			opacity:.60;
+			filter:alpha(opacity=60);
+			color:#603;
+			}
+	#cssmenu p{
+		clear:left;
+		}	
+	#cssmenu .active > a{
+		background:url(images/current-bg.gif) top left repeat-x;
+		color:#FFF;
+		}
+	#cssmenu .active > a:hover {
+	 color:#FFF;
+			filter:alpha(opacity=60);
+		opacity:0.60;
+	}		
+
+ 
+        </style>
+    </head>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
